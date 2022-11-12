@@ -24,6 +24,10 @@ body{
     margin-right: 10px;
     line-height: 20px;
 }
+.home :hover{
+    color: #EB6440;
+    font-weight: bolder;
+}
 a{
     text-decoration: none;
 }
@@ -135,4 +139,8 @@ input[type="radio"]{
     height: 30px;
     width: 80px;
     float: right;
+    border-radius: 10px;
+    background-color: #464648;
+    color: white;
+    font-weight: bold;
 }

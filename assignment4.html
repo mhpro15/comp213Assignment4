@@ -17,7 +17,10 @@
             <img class ="banner-pic" src="banner.jpg" alt="banner picture">
         </div>
     </a>
-    <a class="home" href="index.html">HOME</a>&nbsp;
+    <div class="home">
+        <a href="index.html">HOME</a>&nbsp;
+    </div>
+    
     <br>
     <div class="main-form">
         <div class="content">
@@ -209,7 +212,7 @@
                         <input type="radio" id="not-sure" name="choice-10">
                         <label  class="options-3" for="not-sure">Not Sure</label>
                     </fieldset>
-                    
+                    <br>
                     <fieldset>
                         <legend><h4>ANY OTHER COMMENTS <span class="lower">(please use the back of computer card or this paper if neccesary)</span></h4></legend>
                 
@@ -231,11 +234,11 @@
                             <input type="range" id="vol" name="vol" min="0" max="10" step ="1" value="5" oninput="this.nextElementSibling.value = this.value"> <output>5</output>/10
                         </li>
                     </fieldset>
+                    <br>
                     <div>
                         <label for="email">Enter your email if you like to receive a copy of your survey:</label>
-                        <input type="email" id="email" name="email">
+                        <input type="email" id="email" name="email"><input class="submitButton" type="submit" value="Submit">
                     </div>
-                    <input class="submitButton" type="submit" value="Submit">
                     <br>
                 </ol>
                 </div>
