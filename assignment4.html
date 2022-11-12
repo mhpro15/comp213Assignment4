@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Zen+Antique&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <title>Form</title>
+</head>
+<body>
+    
+    <a href="https://www.centennialcollege.ca" target="_blank">
+        <div class="banner">
+            <img class ="banner-pic" src="banner.jpg" alt="banner picture">
+        </div>
+    </a>
+    <a class="home" href="index.html">HOME</a>&nbsp;
+    <br>
+    <div class="main-form">
+        <div class="content">
+            <form action="assignment4.html">
+                <div class="form-title">
+                    <h2>CENTENNIAL COLLEGE</h2>
+                    <h3>Continuing Education Course/Instructor Evaluation</h3>
+                </div>
+                    <p>Please read each statement carefully and consider each one individually. Use the <span class="make-bold">computer card</span> to make your choice (use a pencil to fill in space). Give only <span class="make-bold">one answer</span> for each question</p>
+                <br>
+                <label for="course-name" class ="make-bold">Course Name/Code:</label>
+                <input class="input-box textbox1" type="text" id="course-name" name="course-name" required autofocus><br>
+                <br>
+                <label class ="make-bold">Semester:</label>
+
+                <input class="checkbox" type="checkbox" id="fall" name="semester">
+                <label class="options" for="fall">Fall</label>
+                
+                <input class="checkbox" type="checkbox" id="winter" name="semester">
+                <label class="options" for="fall">Winter</label>
+                
+                <input class="checkbox" type="checkbox" id="summer" name="semester">
+                <label  class="options" for="fall">Spring/Summer</label>
+
+                <label for="year" class ="make-bold">Year:</label>
+                <select name="year" id="year">
+                    <option value="" disabled>Choose a year</option>
+                    <option value="2018">2018</option>
+                    <option value="2019">2019</option>
+                    <option value="2020">2020</option>
+                    <option value="2021">2021</option>
+                    <option value="2022">2022</option>
+                  </select>
+                  <br><br>
+
+                <label for="instructor" class ="make-bold">Instructor:</label>
+                <input class="input-box textbox2" type="text" id="instructor" name="course-name" required autofocus><br>
+                <br>
+                <div id="rating">
+                <ol>
+                    <fieldset>
+                        <legend><h4>INSTRUCTOR</h4></legend>
+                        <p>How would you rate the instructor's:</p> 
+                    
+                        <li><span class ="make-bold">knowledge</span> of subject?</li>
+    
+                        <input type="radio" id="exce" name="choice-1">
+                        <label class="options-2" for="exce">Excellent</label>
+                        
+                        <input type="radio" id="good" name="choice-1">
+                        <label class="options-2" for="good">Good</label>
+                        
+                        <input type="radio" id="fair" name="choice-1">
+                        <label  class="options-2" for="fair">Fair</label>
+    
+                        <input type="radio" id="ns" name="choice-1">
+                        <label  class="options-2" for="ns">Not Satisfactory</label>
+    
+                        
+                        <li><span class ="make-bold">helpfulness</span></li>
+    
+                        <input type="radio" id="exce" name="choice-2">
+                        <label class="options-2" for="exce">Excellent</label>
+                        
+                        <input type="radio" id="good" name="choice-2">
+                        <label class="options-2" for="good">Good</label>
+                        
+                        <input type="radio" id="fair" name="choice-2">
+                        <label  class="options-2" for="fair">Fair</label>
+    
+                        <input type="radio" id="ns" name="choice-2">
+                        <label  class="options-2" for="ns">Not Satisfactory</label>
+    
+                        <li><span class ="make-bold">courtesy and respect</span> for all students</li>
+    
+                        <input type="radio" id="exce" name="choice-3">
+                        <label class="options-2" for="exce">Excellent</label>
+                        
+                        <input type="radio" id="good" name="choice-3">
+                        <label class="options-2" for="good">Good</label>
+                        
+                        <input type="radio" id="fair" name="choice-3">
+                        <label  class="options-2" for="fair">Fair</label>
+    
+                        <input type="radio" id="ns" name="choice-3">
+                        <label  class="options-2" for="ns">Not Satisfactory</label>
+                        
+                        <li><span class ="make-bold">communication</span> skills</li>
+    
+                        <input type="radio" id="exce" name="choice-4">
+                        <label class="options-2" for="exce">Excellent</label>
+                        
+                        <input type="radio" id="good" name="choice-4">
+                        <label class="options-2" for="good">Good</label>
+                        
+                        <input type="radio" id="fair" name="choice-4">
+                        <label  class="options-2" for="fair">Fair</label>
+    
+                        <input type="radio" id="ns" name="choice-4">
+                        <label  class="options-2" for="ns">Not Satisfactory</label>
+    
+                        <li>overall <span class ="make-bold">performance</span></li>
+    
+                        <input type="radio" id="exce" name="choice-5">
+                        <label class="options-2" for="exce">Excellent</label>
+                        
+                        <input type="radio" id="good" name="choice-5">
+                        <label class="options-2" for="good">Good</label>
+                        
+                        <input type="radio" id="fair" name="choice-5">
+                        <label  class="options-2" for="fair">Fair</label>
+    
+                        <input type="radio" id="ns" name="choice-5">
+                        <label  class="options-2" for="ns">Not Satisfactory</label>
+    
+                    
+                    </fieldset>
+                    <br>
+                    <fieldset>
+                        <legend><h4>COURSE</h4></legend>
+                    
+                        <li>How would you rate <span class ="make-bold">course materials</span>?</li>
+
+                        <input type="radio" id="exce" name="choice-6">
+                        <label class="options-2" for="exce">Excellent</label>
+                        
+                        <input type="radio" id="good" name="choice-6">
+                        <label class="options-2" for="good">Good</label>
+                        
+                        <input type="radio" id="fair" name="choice-6">
+                        <label  class="options-2" for="fair">Fair</label>
+
+                        <input type="radio" id="ns" name="choice-6">
+                        <label  class="options-2" for="ns">Not Satisfactory</label>
+
+
+                        <li>How much this course meet your <span class ="make-bold">expectations</span>?</li>
+
+                        <input type="radio" id="exce" name="choice-7">
+                        <label class="options-2" for="exce">Excellent</label>
+                        
+                        <input type="radio" id="good" name="choice-7">
+                        <label class="options-2" for="good">Good</label>
+                        
+                        <input type="radio" id="fair" name="choice-7">
+                        <label  class="options-2" for="fair">Fair</label>
+
+                        <input type="radio" id="ns" name="choice-7">
+                        <label  class="options-2" for="ns">Not Satisfactory</label>
+
+                        <li>How would you rate course <span class ="make-bold">overall</span>?</li>
+
+                        <input type="radio" id="exce" name="choice-8">
+                        <label class="options-2" for="exce">Excellent</label>
+                        
+                        <input type="radio" id="good" name="choice-8">
+                        <label class="options-2" for="good">Good</label>
+                        
+                        <input type="radio" id="fair" name="choice-8">
+                        <label  class="options-2" for="fair">Fair</label>
+
+                        <input type="radio" id="ns" name="choice-8">
+                        <label  class="options-2" for="ns">Not Satisfactory</label>
+
+                    </fieldset>
+                    <br>
+                    <fieldset>
+                        <legend><h4>GENERAL INFORMATION</h4></legend>
+                
+                        <li>Was the <span class ="make-bold">course outline</span> reviewed/explained at the beginning of your course?</li>
+
+                        <input type="radio" id="yes" name="choice-">
+                        <label class="options-3" for="yes">Yes</label>
+                        
+                        <input type="radio" id="no" name="choice-9">
+                        <label class="options-3" for="no">No</label>
+                        
+                        <input type="radio" id="not-sure" name="choice-9">
+                        <label  class="options-3" for="not-sure">Not Sure</label>
+
+                        <li>Would you <span class ="make-bold">reccomend</span> this course to a friend with the same interests?</li>
+
+                        <input type="radio" id="yes" name="choice-10">
+                        <label class="options-3" for="yes">Yes</label>
+                        
+                        <input type="radio" id="no" name="choice-10">
+                        <label class="options-3" for="no">No</label>
+                        
+                        <input type="radio" id="not-sure" name="choice-10">
+                        <label  class="options-3" for="not-sure">Not Sure</label>
+                    </fieldset>
+                    
+                    <fieldset>
+                        <legend><h4>ANY OTHER COMMENTS <span class="lower">(please use the back of computer card or this paper if neccesary)</span></h4></legend>
+                
+                        <li>
+                            <label for="best-thing">What is the <span class ="make-bold">best thing</span> about this course?</label> 
+                            <input class="input-box textbox3" type="text" id="best-thing" name="best-thing">
+                        </li>
+    
+                        <li>
+                            <label for="improve">How could we <span class ="make-bold">improve</span> this course?</label> 
+                            <input class="input-box textbox4" type="text" id="improve" name="improve">
+                        </li>
+                        
+                        <li>
+                            <textarea id="other" name="other" rows="4" cols="50">Other: </textarea>
+                        </li>
+                        <li>
+                            <label for="vol">How are you satisfy with the survey (rate from 0-10):</label>
+                            <input type="range" id="vol" name="vol" min="0" max="10" step ="1" value="5" oninput="this.nextElementSibling.value = this.value"> <output>5</output>/10
+                        </li>
+                    </fieldset>
+                    <div>
+                        <label for="email">Enter your email if you like to receive a copy of your survey:</label>
+                        <input type="email" id="email" name="email">
+                    </div>
+                    <input class="submitButton" type="submit" value="Submit">
+                    <br>
+                </ol>
+                </div>
+                <small>
+                    <p>Thank you! We pay attention to your feedback!</p> 
+                    <p>Web: <a href="https://www.centennialcollege.ca/">https://www.centennialcollege.ca/</a> &nbsp; Email: <a href="mailto:ce@centennialcollege.ca.">ce@centennialcollege.ca.</a></p> 
+                </small>
+            </form>
+            <br>
+        </div>
+        
+    </div>
+    <br>
+</body>
+</html>

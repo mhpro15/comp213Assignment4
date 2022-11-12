@@ -1,0 +1,138 @@
+body{
+    min-width: 500px;
+    max-width: 1080px;
+    margin: auto ;
+    align-items: center;
+    font-family: 'Zen Antique', serif;
+    font-size: 1rem;
+    background-color: #EFF5F5;
+}
+.banner{
+    background-color:#464648;
+    text-align: right;
+    max-height: 100px;
+    border-radius: 20px;
+}
+.banner-pic{
+    max-height: 100px;
+    border-radius: 20px;
+}
+.home{
+    float: right;
+    font-weight: bold;
+    font-size: larger;
+    margin-right: 10px;
+    line-height: 20px;
+}
+a{
+    text-decoration: none;
+}
+
+form{
+    border: solid;
+    border-radius: 20px;
+    padding: 2%;
+}
+.form-title{
+    text-align: center;
+    line-height: 10px;
+}
+
+
+.make-bold{
+    font-weight: bold;
+}
+
+#rating{
+    line-height: 1.5rem;
+}
+
+#rating h4,p{
+    margin: 0px;
+}
+
+ol{
+    margin-top: 5px;
+}
+
+.options{
+    padding-right: 10%;
+}
+
+.options-2{
+    padding-right: 14%;
+}
+
+.options-3{
+    padding-right: 10%;
+}
+li{
+    margin-left: 4%;
+    margin-top: 5px;
+    line-height: 50px;
+    font-size: 1.1rem;
+}
+.lower{
+    font-size: medium;
+    font-weight: lighter;
+}
+#other{
+    float: left;
+    font-size: 1rem;
+    font-family: 'Zen Antique', serif;
+    height: fit-content;
+    width: 98%;
+    padding-top: 13px;
+    background-color: #EFF5F5;
+}
+
+small{
+    font-style: italic;
+    text-align: center;
+    line-height: 1rem;
+}
+.input-box{
+    border: none;
+    border-bottom: dashed 1px;
+    font-size: large;
+    background-color: #EFF5F5;
+}
+.textbox1{
+    width: 83%;
+}
+.textbox2{
+    width: 90%;
+}
+.textbox3{
+    width: 58%;
+}
+.textbox4{
+    width: 64%;
+}
+
+select{
+    text-align: center;
+}
+.checkbox{
+    width: 20px;
+    height: 20px;
+    align-items: baseline;
+}
+#year{
+    height: 20px;
+    width: 100px;
+}
+option{
+    align-items: center;
+}
+
+input[type="radio"]{
+    width: 15px;
+    height: 15px;
+    padding-top: 10px;
+}
+.submitButton{
+    height: 30px;
+    width: 80px;
+    float: right;
+}
